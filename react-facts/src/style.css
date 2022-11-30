@@ -1,3 +1,21 @@
 body{
-    background-color:antiquewhite
+    background-color:lightgray;
+    font-family: monospace;
+}
+
+.nav{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-list{
+    margin: 5px;
+    list-style-type:none;
+    display:flex;
+}
+
+.nav-list > li{
+    padding: 10px;
 }
