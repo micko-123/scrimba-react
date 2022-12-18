@@ -8,8 +8,10 @@ export default function Header(){
       
         <nav className='nav'>
           <div>
-             <img src={viteLogo} />
-             <img src={reactLogo} />
+            <div className='nav-left'>
+              <img src={reactLogo} />
+              <h1>React Facts</h1>
+            </div>
           </div>
           <ui className = 'nav-list'>
             <li>Pricing</li>
